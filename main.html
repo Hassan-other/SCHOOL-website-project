@@ -4,12 +4,8 @@
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-
- <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/3.1.2/flowbite.min.js"></script> 
-
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/3.1.2/flowbite.min.css" rel="stylesheet" />
 </head>
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/3.1.2/flowbite.min.js"></script>
 
@@ -39,12 +35,12 @@
 </div>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const modalElement = document.getElementById('default-modal');
-        if (modalElement && typeof Flowbite !== 'undefined') {
-            const modal = new Flowbite.Modal(modalElement);
-            modal.show();
-        }
-    });
+  document.addEventListener('DOMContentLoaded', () => {
+    const modalElement = document.getElementById('default-modal');
+    if (modalElement && typeof Flowbite !== 'undefined') {
+      const modal = new Flowbite.Modal(modalElement);
+      modal.show();
+    }
+  });
 </script>
 </html>
